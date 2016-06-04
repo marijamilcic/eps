@@ -1,0 +1,12 @@
+{	
+	dbConfig: {
+		url: "jdbc:mysql://localhost:3306/elektrovojvodina?zeroDateTimeBehavior=convertToNull",
+		user: "elektrovojvodina",
+		pass: "eeo",
+		poolSize: 10
+	},
+	
+	query : {
+		limit : 10
+	}
+}
