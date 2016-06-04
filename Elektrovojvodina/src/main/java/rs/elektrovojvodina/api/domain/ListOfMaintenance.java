@@ -1,4 +1,4 @@
-package rs.elektrovojvodina.api.database;
+package rs.elektrovojvodina.api.domain;
 
 import java.util.Date;
 
@@ -19,15 +19,22 @@ public class ListOfMaintenance {
 	@Column(name = "id_liste")
 	private int listID;
 	
-	@Column(name = "status")
-	private String status;
+	@Column(name = "stanje")
+	private String state;
 	
 	@Column(name = "datum_kreiranja")
 	private Date dateOfCreation;
 	
-	@Column(name = "tip_aktivnosti")
-	private String activityType;
+	@Column(name = "datum_dodele_korisniku")
+	private Date dateOfUserClaiming;
 	
-	@Column(name = "grupa_aktivnosti")
-	private String activityGroup;
+	@Column(name = "planirani_datum_izvrsenja")
+	private Date planedDateOfexecution;
+	
+	@Column(name = "datum_zatvanja")
+	private Date dateOfClosing;
+	
+	@Column(name = "datum_revizije")
+	private Date dateOfRevision;
+	
 }
