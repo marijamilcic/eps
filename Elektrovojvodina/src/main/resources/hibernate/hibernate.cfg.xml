@@ -8,6 +8,9 @@
 		<!-- Mapping details -->
 		<mapping package="rs.elektrovojvodina.api.domain" />
 		<mapping class="rs.otvoreniparlament.api.domain.CalendarOfMaintenance" />
-		
+		<mapping class="rs.otvoreniparlament.api.domain.ListOfMaintenance" />
+		<mapping class="rs.otvoreniparlament.api.domain.Activity" />
+		<mapping class="rs.otvoreniparlament.api.domain.Pattern" />
+		<mapping class="rs.otvoreniparlament.api.domain.Worker" />
 	</session-factory>
 </hibernate-configuration>

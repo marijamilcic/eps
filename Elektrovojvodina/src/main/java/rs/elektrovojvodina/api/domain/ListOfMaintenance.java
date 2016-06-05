@@ -13,7 +13,7 @@ public class ListOfMaintenance {
 	
 	@Id
 	@Column(name = "id_sablona")
-	private int patternID;
+	private Pattern patternID;
 	
 	@Id
 	@Column(name = "id_liste")
@@ -34,7 +34,12 @@ public class ListOfMaintenance {
 	@Column(name = "datum_zatvanja")
 	private Date dateOfClosing;
 	
+	@Column(name= "radnik_koji_je_zatvorio_listu")
+	private Worker workerWhoFinished;
+	
 	@Column(name = "datum_revizije")
 	private Date dateOfRevision;
 	
+	@Column(name= "id_kalendara")
+	private CalendarOfMaintenance calendarID;
 }
