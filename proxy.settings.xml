@@ -1,0 +1,8 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="USE_PROXY_PAC" value="true" />
+    <option name="PROXY_HOST" value="saga.proxy.rs" />
+    <option name="PROXY_PORT" value="3129" />
+    <option name="PROXY_EXCEPTIONS" value="localhost" />
+  </component>
+</application>
