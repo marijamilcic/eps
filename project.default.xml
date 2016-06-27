@@ -2,6 +2,7 @@
   <component name="ProjectManager">
     <defaultProject>
       <component name="CompilerConfiguration">
+        <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
         <resourceExtensions />
         <wildcardResourcePatterns>
           <entry name="!?*.java" />
@@ -38,6 +39,10 @@
         <ConfirmationsSetting value="0" id="Remove" />
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" />
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+        <property name="settings.editor.splitter.proportion" value="0.2" />
+      </component>
       <component name="RunManager">
         <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
           <module name="" />
@@ -124,6 +129,25 @@
           <listeners />
           <method />
         </configuration>
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
       </component>
     </defaultProject>
   </component>
