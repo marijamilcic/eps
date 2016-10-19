@@ -3,6 +3,7 @@
     <resource url="http://java.sun.com/jsf/html" location="http://java.sun.com/jsf/html" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans-4.3.xsd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/d83fe593_spring-beans-4.3.xsd" />
     <resource url="http://www.springframework.org/schema/context/spring-context.xsd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/a93b54e7_spring-context.xsd" />
+    <resource url="http://www.springframework.org/schema/security/spring-security-3.0.3.xsd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/e009936_spring-security-3.0.3.xsd" />
     <resource url="http://www.springframework.org/schema/tool/spring-tool-4.3.xsd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/946a6b65_spring-tool-4.3.xsd" />
     <resource url="http://www.springframework.org/schema/tx/spring-tx.xsd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/bc20ae51_spring-tx.xsd" />
   </component>
