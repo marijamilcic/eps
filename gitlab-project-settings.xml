@@ -1,0 +1,16 @@
+<application>
+  <component name="SettingsState">
+    <option name="host" value="https://gitlab.com/" />
+    <option name="token" value="qfdJzUtmkWtEdjHksAC8" />
+    <option name="projects">
+      <list>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/saga.rs/rest_core.git" />
+          <option name="name" value="rest_core" />
+          <option name="namespace" value="saga.rs" />
+          <option name="sshUrl" value="git@gitlab.com:saga.rs/rest_core.git" />
+        </ProjectDto>
+      </list>
+    </option>
+  </component>
+</application>
